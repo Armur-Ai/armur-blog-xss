@@ -1,0 +1,32 @@
+/* custom-styles.css */
+
+.card.features {
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 1;
+}
+
+.card.features::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.card.features .card-content {
+    position: relative;
+    z-index: 2;
+    color: white !important;
+}
+
+.card.features .card-content .icon-color,
+.card.features .card-content .card-title,
+.card.features .card-content .card-text,
+.card.features .text-muted {
+    color: white !important;
+}
