@@ -3,12 +3,12 @@
         {{ range .Pages.ByWeight }}
         <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
             <a class="text-decoration-none text-reset" href="{{ .Permalink }}">
-                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1" 
-                     style="background-image: url('{{ .Params.image }}'); background-size: cover; background-position: center; min-height: 250px;">
-                    <div class="card-content d-flex flex-column justify-content-end mt-auto">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <div class="card-image" style="background-image: url('{{ .Params.image }}'); background-size: cover; background-position: center; height: 200px;">
+                    </div>
+                    <div class="card-content d-flex flex-column justify-content-end mt-auto" style="margin-top: -40px;">
                         <span class="icon-color d-flex my-3">
-                            <i class="material-icons align-middle">{{- .Params.icon | default "article" }}</i>
-                            {{ if .Draft }}<span class="badge bg-default ms-2 fs-6 align-middle">DRAFT</span>{{ end }}
+                            <!-- <i class="material-icons align-middle">{{- .Params.icon | default "article" }}</i> -->
                         </span>
                         <div class="card-body p-0 content mt-auto">
                             <p class="fs-5 fw-semibold card-title mb-1">{{ .Title }}</p>
