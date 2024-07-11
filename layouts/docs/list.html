@@ -5,8 +5,6 @@
             <a class="text-decoration-none text-reset" href="{{ .Permalink }}">
                 <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1" 
                      style="background-image: url('{{ .Params.image }}'); background-size: cover; background-position: center;">
-                    <!-- Debug info -->
-                    <small class="text-muted">Image: {{ .Params.image }}</small>
                     <div class="card-content">
                         <span class="icon-color d-flex my-3">
                             <i class="material-icons align-middle">{{- .Params.icon | default "article" }}</i>
