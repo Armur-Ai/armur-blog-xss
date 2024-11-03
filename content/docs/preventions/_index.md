@@ -1,7 +1,7 @@
 ---
-title: "XSS Prevention & Ethical Hacking Considerations"
-description: "Learn about XSS prevention techniques and ethical hacking practices to secure web applications."
-image: "https://armur-ai.github.io/armur-blog-xss/images/bug.png"
+title: "Advanced XSS Techniques"
+description: "Master complex XSS attacks by bypassing modern security filters and crafting sophisticated polyglot payloads."
+image: "https://armur-ai.github.io/armur-blog-xss/images/2.jpg"
 icon: "code"
 draft: false
 ---

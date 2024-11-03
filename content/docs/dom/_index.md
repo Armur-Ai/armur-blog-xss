@@ -1,7 +1,7 @@
 ---
-title: "DOM Based XSS & Advanced Techniques"
-description: "Explore advanced techniques and client-side manipulation in DOM-based XSS."
-image: "https://armur-ai.github.io/armur-blog-xss/images/xss.png"
+title: "XSS Fundamentals & Detection"
+description: "Learn to identify and understand XSS vulnerabilities through browser mechanics and basic payload construction"
+image: "https://armur-ai.github.io/armur-blog-xss/images/1.avif"
 icon: "code"
 draft: false
 ---
